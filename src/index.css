@@ -5,9 +5,345 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.App {
+  background-color: rgb(38, 37, 37);
+  
+  /* display: flex; */
+}
+
+.vincePic {
+  float: left;
+  width: 25%;
+  margin: 15px;
+  outline: grey solid 3px;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+.bio {
+  margin: 15px;
+  width: 90%;
+  margin-left: 20px;
+  padding: 30px;
+  padding-top: 65px;
+  font-size: 1.4em;
+  color: rgb(175, 175, 175);
+  font-family: 'New Tegomin', serif;
+}
+
+header {
+  font-family: 'Economica', sans-serif;
+  background-image: url('./assets/trees.jpg') ;
+  top: 0;
+  background-position: center top;
+  background-size: cover;
+  position: fixed;
+  width: 100%;
+  font-size: 2em;
+  font-weight: bolder;
+  height: 15%;
+  color:rgb(16, 140, 140);
+  vertical-align: bottom;
+  padding-bottom: -50;
+}
+
+.name {
+  font-weight: bolder;
+  text-align: right;
+  padding-right: 5%;
+  padding-top: -10%;
+  -webkit-text-stroke: black .5px;
+}
+
+footer {
+  font-family: 'Economica', sans-serif;
+  background-image: url('./assets/trees.jpg');
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  color: rgb(23, 87, 78);
+  -webkit-text-stroke: 1px white solid;
+  background-position: center bottom;
+  background-size: cover;
+  size: 1.5em;
+  height: 100px;
+}
+
+.footerNumber {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.footerEmail {
+  font-size: 2em;
+  font-weight: bolder;
+}
+
+.skills {
+  border-top: #ddd .2px solid;
+  padding-bottom: 20%;
+  background-color: rgb(19, 19, 19);
+  color:rgb(165, 165, 165);
+  font-family: 'Economica', sans-serif;
+}
+
+.footerLinks {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 15px;
+  padding: 40px;
+  font-size: 2em;
+  text-align: center;
+}
+
+footer a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+footer a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+.skill {
+  padding: 5px 15px 5px 15px;
+}
+
+.skillsList {
+  display: inline-flex;
+  color:rgb(23, 87, 78);
+  -webkit-text-stroke: .2px silver;
+  font-weight: bolder;
+  font-size: 1.5em;
+}
+
+.link {
+  padding: 2px 6px 2px 6px;
+  border:black 3px solid;
+  border-radius: 6px;
+  margin: 0px 5px 15px 5px;
+  background-color: rgb(121, 121, 121);
+  color: white;
+}
+
+.mySkills {
+    margin: 0;
+    margin-top: 10px;
+    grid-column: 1;
+    grid-row: 1;
+    z-index: 1;
+    font-family: 'Teko', sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    animation: glow 2s ease-in-out infinite alternate;
+    text-align: center;
+    -webkit-text-stroke: white 1px;
+  }
+
+.headerName {
+  
+  margin: 0;
+  margin-bottom: -50px;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  font-family: 'Teko', sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: center;
+  -webkit-text-stroke: white 1px;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 20px #2d9da9;
+  }
+  to {
+    text-shadow: 0 0 20px #34b3c1, 0 0 10px #4dbbc7;
+  }
+}
+
+.apps {
+  color: #2d9da9;
+  -webkit-text-stroke: 1px white solid;
+  padding-top: 15px;
+  margin-top: 120px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  background-color: rgb(24, 24, 24);
+}
+
+.eachApp {
+  background-color: rgb(38, 47, 50);
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  border:rgb(16, 140, 140) 5px solid;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  color: white;
+}
+
+Thumbnail {
+  color: white;
+}
+
+.beachBumsBody {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  font-family: 'Economica', sans-serif;
+  padding: 50px;
+  padding-left: 0px;
+  color:rgb(16, 140, 140)
+}
+
+.bbpics {
+  margin: 5px;
+  width: 60%;
+}
+
+.bbDesc {
+  padding: 0 10% 0 10%;
+  font-size: 1.5em;
+  color: white;
+}
+
+.bbPicList {
+  display: inline-flex;
+}
+
+.bbLinks {
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  font-family: 'Economica', sans-serif;
+}
+
+.goblinBody {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  font-family: 'Economica', sans-serif;
+  padding: 50px;
+  padding-left: 0px;
+  color:rgb(16, 140, 140)
+}
+
+.gkpics {
+  margin: 5px;
+  width: 60%;
+}
+
+.gkDesc {
+  padding: 0 10% 0 10%;
+  font-size: 1.5em;
+  color: white;
+}
+
+.gkPicList {
+  display: inline-flex;
+}
+
+.gkLinks {
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  font-family: 'Economica', sans-serif;
+}
+
+.horrorBody {
+  text-align: center;
+  width: 100%;
+  margin-top: 100px;
+  font-family: 'Economica', sans-serif;
+  padding: 50px;
+  padding-left: 0px;
+  color:rgb(16, 140, 140)
+}
+
+.horrorpics {
+  margin: 5px;
+  width: 60%;
+}
+
+.horrorDesc {
+  padding: 0 10% 0 10%;
+  font-size: 1.5em;
+  color: white;
+}
+
+.horrorPicList {
+  display: inline-flex;
+}
+
+.horrorLinks {
+  padding-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-size: 1.5em;
+  font-family: 'Economica', sans-serif;
+}
+
+.contactStuff {
+  padding: 150px;
+}
+
+.contactHeader {
+  font-size: 3em;
+  color:#2d9da9;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  font-family: 'Teko', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: center;
+  -webkit-text-stroke: white 1px;
+}
+
+.greatPara {
+  font-size: 2.5em;
+  color: white;
+}
+
+.info {
+  font-size: 1.5em;
+  color: white;
+}
+
+.resBody {
+  padding: 150px;
+}
+
+.resHeader {
+  font-size: 3em;
+  color:#2d9da9;
+  grid-column: 1;
+  grid-row: 1;
+  z-index: 1;
+  font-family: 'Teko', sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: center;
+  -webkit-text-stroke: white 1px;
 }

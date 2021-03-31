@@ -28,6 +28,10 @@ code {
   margin-bottom: 50px;
 }
 
+.title {
+  padding-top: 15px;
+}
+
 .bio {
   margin: 15px;
   width: 90%;

@@ -4,8 +4,7 @@ body {
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
+  -moz-osx-font-smoothing: grayscale; 
 }
 
 code {
@@ -15,8 +14,6 @@ code {
 
 .App {
   background-color: rgb(38, 37, 37);
-  
-  /* display: flex; */
 }
 
 .vincePic {
@@ -160,7 +157,6 @@ footer a.active {
   }
 
 .headerName {
-  
   margin: 0;
   margin-bottom: -50px;
   grid-column: 1;
@@ -182,6 +178,15 @@ footer a.active {
   }
 }
 
+.appsMade {
+  font-family: 'Teko', sans-serif;
+  font-size: 2.5em;
+  text-transform: uppercase;
+  animation: glow 2s ease-in-out infinite alternate;
+  text-align: center;
+  -webkit-text-stroke: white 1px;
+}
+
 .apps {
   color: #2d9da9;
   -webkit-text-stroke: 1px white solid;
@@ -190,6 +195,7 @@ footer a.active {
   margin-bottom: 100px;
   padding-bottom: 50px;
   background-color: rgb(24, 24, 24);
+  font-family: 'Economica', sans-serif;
 }
 
 .eachApp {
@@ -201,6 +207,7 @@ footer a.active {
   border-radius: 8px;
   margin-bottom: 15px;
   color: white;
+  font-family: 'Economica', sans-serif;
 }
 
 Thumbnail {
@@ -325,11 +332,12 @@ Thumbnail {
 }
 
 .greatPara {
+  font-family: 'Economica', sans-serif;
   font-size: 2.5em;
   color: white;
 }
 
-.info {
+.info {font-family: 'Economica', sans-serif;
   font-size: 1.5em;
   color: white;
 }
@@ -350,4 +358,11 @@ Thumbnail {
   animation: glow 2s ease-in-out infinite alternate;
   text-align: center;
   -webkit-text-stroke: white 1px;
+}
+
+.download {
+  margin-top: 5px;
+  font-family: 'Economica', sans-serif;
+  font-size: 2.5em;
+  color: white;
 }

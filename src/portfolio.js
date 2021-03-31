@@ -11,7 +11,7 @@ function Portfolio(props) {
   let bbrepo="https://github.com/vincehint/BeachBums"
   return (
     <div className="apps">
-      <h1>Apps I've Made</h1>
+      <h1 className="appsMade">Apps I've Made</h1>
         <div className="eachApp" id="gk">
           <Thumbnail
             link="/goblinkiller"

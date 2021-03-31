@@ -7,7 +7,7 @@ function Home(props) {
   return (
     <div>
       <div className="bio">
-        <h1>Welcome to the Portfolio of Vince Hintermeister</h1>
+        <h1>Software Engineer</h1>
         <div>
             <img className="vincePic" src={vince} width="30%" alt="Vinces Picture"/>
             <p class='bio'>Vince Hintermeister is a web developer hailing from a small town in Iowa. He learned his craft through General Assembly's Software Engineering Immersive, and true grit. His hobbies include woodburning, acrylic painting, jewelry making and design, and all things game related. Vince is a transman which gives him a unique perspective of the world, and as an artist, a creative one. Vince aims to bring beauty and functionality as well as accessibility to his projects. Vince is a lifelong learner. </p>

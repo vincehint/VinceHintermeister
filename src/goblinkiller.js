@@ -26,10 +26,10 @@ function GoblinKiller(props) {
       </div>
       
       <div className="gkLinks">
-        <a href="https://github.com/vincehint/GoblinKiller">Check Out The Repo</a>
+        <a href="https://github.com/vincehint/GoblinKiller" target="_blank">Check Out The Repo</a>
       </div>
       <div className="gkLinks">
-        <a href="https://vincehint.github.io/GoblinKiller/">Check Out The App</a>
+        <a href="https://vincehint.github.io/GoblinKiller/" target="_blank">Check Out The App</a>
       </div>
     </div>
 

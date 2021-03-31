@@ -26,10 +26,10 @@ function BeachBums(props) {
       </div>
       
       <div className="bbLinks">
-        <a href="https://github.com/vincehint/BeachBums">Check Out The Repo</a>
+        <a href="https://github.com/vincehint/BeachBums" target="_blank">Check Out The Repo</a>
       </div>
       <div className="bbLinks">
-        <a href="https://beach-bums.herokuapp.com/">Check Out The App</a>
+        <a href="https://beach-bums.herokuapp.com/" target="_blank">Check Out The App</a>
       </div>
     </div>
 

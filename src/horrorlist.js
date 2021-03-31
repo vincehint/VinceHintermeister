@@ -26,10 +26,10 @@ function HorrorList(props) {
       </div>
       
       <div className="horrorLinks">
-        <a href="https://github.com/vincehint/horror-list">Check Out The Repo</a>
+        <a href="https://github.com/vincehint/horror-list" target="_blank">Check Out The Repo</a>
       </div>
       <div className="horrorLinks">
-        <a href="https://horror-list.herokuapp.com/">Check Out The App</a>
+        <a href="https://horror-list.herokuapp.com/" target="_blank">Check Out The App</a>
       </div>
     </div>
 

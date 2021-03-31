@@ -19,7 +19,7 @@ function Portfolio(props) {
             image={OpenThumbnail}
             category="Game in Canvas"
           />
-        <a href={gkrepo}>See The Repo</a>
+        <a href={gkrepo} target="_blank">See The Repo</a>
         </div>
       <div className="eachApp" id="hl">
         <Thumbnail
@@ -37,7 +37,7 @@ function Portfolio(props) {
           title="Beach Bums"
           category="Social Media App"
         />
-        <a href={bbrepo}>See The Repo</a>
+        <a href={bbrepo} target="_blank">See The Repo</a>
       </div>
     </div>
   )

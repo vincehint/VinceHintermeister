@@ -23,24 +23,22 @@ function Home(props) {
             <h3 className="skill" id="html">Html</h3>
             <h3 className="skill" id="css">CSS</h3>
             <h3 className="skill" id="js">JavaScript</h3>
-          </div>
-          <div className="topmiddle">
             <h3 className="skill" id="python">Python</h3>
             <h3 className="skill" id="react">React</h3>
+          </div>
+          <div className="topmiddle">
+            <h3 className="skill" id="postgres">Postgres</h3>
+            <h3 className="skill" id="mongo">Mongo</h3>
             <h3 className="skill" id="express">Express</h3>
             <h3 className="skill" id="sql">SQL</h3>
           </div>  
           <div className="topbottom"> 
-            <h3 className="skill" id="postgres">Postgres</h3>
-            <h3 className="skill" id="mongo">Mongo</h3>
-            <h3 className="skill" id="mongoose">Mongoose</h3>
-            <h3 className="skill" id="node">Node.js</h3>
-          </div>   
-          <div className="bottom">
             <h3 className="skill" id="gatsby">Gatsby.js</h3>
             <h3 className="skill" id="flask">Flask.js</h3>
             <h3 className="skill" id="blender">Blender</h3>
-          </div>  
+            <h3 className="skill" id="mongoose">Mongoose</h3>
+            <h3 className="skill" id="node">Node.js</h3>
+          </div>   
         </div>
       </div>
     </div>

@@ -7,9 +7,15 @@ function Contact(props) {
       <p className="greatPara">Great! He'd love to hear from you on any web design, photography, or art requests. Here's his info!</p>
       <p className="info">Vince Hintermeister</p>
       <p className="info">Phone: 641-854-1212</p>
-      <a className="info" href = "https://www.linkedin.com/in/vincent-hintermeister/">LinkedIn</a>
-      <a className="info" href = "https://github.com/vincehint">GitHub</a>
-      <a className="info" href = "mailto: vv.hintermeister@gmail.com">Send Vince An Email</a>
+      <div className="contactLinks">
+        <a className="info" href = "https://www.linkedin.com/in/vincent-hintermeister/">LinkedIn</a>
+      </div>
+      <div className="contactLinks">
+        <a className="info" href = "https://github.com/vincehint">GitHub</a>
+      </div>
+      <div className="contactLinks">
+        <a className="info" href = "mailto: vv.hintermeister@gmail.com">Send Vince An Email</a>
+      </div>
     </div>
   )
 }

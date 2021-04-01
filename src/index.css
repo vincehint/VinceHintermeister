@@ -374,3 +374,7 @@ Thumbnail {
 .resumeDownload {
   color:rgb(16, 140, 140)
 }
+
+.contactLinks {
+  margin: 15px;
+}
